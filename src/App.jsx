@@ -16,17 +16,16 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/taller-pagina" element={<Navigate to="/home" />} />
-          <Route path='/home' element={<Home/>}/>
-          <Route path='/modelo-despliegue' element={<ModelDes/>}/>
-          <Route path='/modelo-servicio' element={<ModelSer/>}/>
-          <Route path='/nube-privada' element={<NubePriv/>}/>
-          <Route path='/nube-comunitaria' element={<NubeComun/>}/>
-          <Route path='/nube-hibrida' element={<NubeHib/>}/>
-          <Route path='/nube-publica' element={<NubePub/>}/>
-          <Route path='/iaas' element={<Iaas/>}/>
-          <Route path='/paas' element={<Paas/>}/>
-          <Route path='/saas' element={<Saas/>}/>
+          <Route path='/taller-pagina' element={<Home/>}/>
+          <Route path='/taller-pagina/modelo-despliegue' element={<ModelDes/>}/>
+          <Route path='/taller-pagina/modelo-servicio' element={<ModelSer/>}/>
+          <Route path='/taller-pagina/nube-privada' element={<NubePriv/>}/>
+          <Route path='/taller-pagina/nube-comunitaria' element={<NubeComun/>}/>
+          <Route path='/taller-pagina/nube-hibrida' element={<NubeHib/>}/>
+          <Route path='/taller-pagina/nube-publica' element={<NubePub/>}/>
+          <Route path='/taller-pagina/iaas' element={<Iaas/>}/>
+          <Route path='/taller-pagina/paas' element={<Paas/>}/>
+          <Route path='/taller-pagina/saas' element={<Saas/>}/>
         </Routes>
       </BrowserRouter>
     </>

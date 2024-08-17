@@ -20,47 +20,47 @@ export const Home = () => {
                     <Card 
                         icon={<GrDeploy className="size-20"/>}
                         title="Modelo de Despliegue"
-                        ruta="/modelo-despliegue"
+                        ruta="/taller-pagina/modelo-despliegue"
                     />
                     <Card 
                         icon={<LuServerCog  className="size-20"/>}
                         title="Modelo de Servicio"
-                        ruta="/modelo-servicio"
+                        ruta="/taller-pagina/modelo-servicio"
                     />
                     <Card 
                         icon={<TbCloudLock className="size-20"/>}
                         title="Nube Privada"
-                        ruta="/nube-privada"
+                        ruta="/taller-pagina/nube-privada"
                     />
                     <Card 
                         icon={<IoCloudUploadOutline className="size-20"/>}
                         title="Nube Comunitaria"
-                        ruta="/nube-comunitaria"
+                        ruta="/taller-pagina/nube-comunitaria"
                     />
                     <Card 
                         icon={<SiCloudinary className="size-20"/>}
                         title="Nube Pública"
-                        ruta="/nube-publica"
+                        ruta="/taller-pagina/nube-publica"
                     />
                     <Card 
                         icon={<BsClouds className="size-20"/>}
                         title="Nube Híbrida"
-                        ruta="/nube-hibrida"
+                        ruta="/taller-pagina/nube-hibrida"
                     />
                     <Card 
                         icon={<GrServerCluster className="size-20"/>}
                         title="Infraestructura como Servicio"
-                        ruta="/iaas"
+                        ruta="/taller-pagina/iaas"
                     />
                     <Card 
                         icon={<TbCloudCode  className="size-20"/>}
                         title="Plataforma como Servicio"
-                        ruta="/paas"
+                        ruta="/taller-pagina/paas"
                     />
                     <Card 
                         icon={<TbCloudCog  className="size-20"/>}
                         title="Software como servicio"
-                        ruta="/saas"
+                        ruta="/taller-pagina/saas"
                     />
                 </div>
         </div>
