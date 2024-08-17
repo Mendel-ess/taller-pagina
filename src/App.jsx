@@ -12,8 +12,6 @@ import { ModelSer } from './Pages/modelSer';
 import { ModelDes } from './Pages/modelDes';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <BrowserRouter>
