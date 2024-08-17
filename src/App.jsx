@@ -7,7 +7,7 @@ import { NubeHib} from './Pages/nubeHib';
 import { Iaas } from './Pages/iass';
 import { Paas } from './Pages/paas';
 import { Saas } from './Pages/saas';
-import { BrowserRouter, Routes, Route} from  'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate} from  'react-router-dom';
 import { ModelSer } from './Pages/modelSer';
 import { ModelDes } from './Pages/modelDes';
 
@@ -16,7 +16,8 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home/>}/>
+          <Route path="/taller-pagina" element={<Navigate to="/home" />} />
+          <Route path='/home' element={<Home/>}/>
           <Route path='/modelo-despliegue' element={<ModelDes/>}/>
           <Route path='/modelo-servicio' element={<ModelSer/>}/>
           <Route path='/nube-privada' element={<NubePriv/>}/>
